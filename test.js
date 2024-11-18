@@ -40,7 +40,7 @@ for (let i = 1; i <= 24; i++) {
     const name = Object.keys(nameToNumber).find(key => nameToNumber[key] === i);
     speakers.forEach(speaker => {
         audioSources.push({
-            stimulus: `/Users/marcusnahalea/Desktop/AST4/Audio/${speaker.name}_${name}_${i}.wav`,
+            stimulus: `Audio/${speaker.name}_${name}_${i}.wav`, //Audio 
             name: name,
             number: i,
             speaker: speaker.name,
