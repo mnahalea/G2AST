@@ -1,5 +1,5 @@
 const jsPsych = initJsPsych({
-    on_finish: function() {
+    on_finish: function(data) {
         //const processedData = jsPsych.data.get().filter(trial => trial.rt !== null).values();
         //localStorage.setItem("reactionData", JSON.stringify(processedData));
         //window.location.href = 'testresults.html';
