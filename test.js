@@ -161,12 +161,12 @@ shuffledBlockPairs.forEach(pair => {
 });
 
 // Add final thank you screen
-const thankYou = {
-    type: jsPsychHtmlKeyboardResponse,
-    stimulus: "Thank you for participating! Your results will be shown on the next page.<br><br>Press any key to continue.",
-    choices: "ALL_KEYS"
-};
-timeline.push(thankYou);
+//const thankYou = {
+    //type: jsPsychHtmlKeyboardResponse,
+    //stimulus: "Thank you for participating! Your results will be shown on the next page.<br><br>Press any key to continue.",
+    //choices: "ALL_KEYS"
+//};
+//timeline.push(thankYou);
 
 // Run the experiment
 jsPsych.run(timeline);
