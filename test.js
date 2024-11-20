@@ -2,7 +2,9 @@ const jsPsych = initJsPsych({
     on_finish: function() {
         const processedData = jsPsych.data.get().filter(trial => trial.rt !== null).values();
         localStorage.setItem("reactionData", JSON.stringify(processedData));
-        window.location.href = 'testresults.html';
+        //window.location.href = 'testresults.html';
+        proliferate.submit({"trials": data.values()});
+        window.location.href = 'finish.html';
     }
 });
 
