@@ -130,7 +130,7 @@ const createBlock = (ethnicity1, ethnicity2, key1, key2) => ({
 // Create instruction blocks
 const createInstruction = (ethnicity1, ethnicity2, key1, key2) => ({
     type: jsPsychHtmlKeyboardResponse,
-    stimulus: `In this part, you will hear different names. Press '${key1}' if you think it is a name of a ${ethnicity1.toLowerCase()} person, press '${key2}' if you think it is a name of a ${ethnicity2.toLowerCase()} person. Try to respond as quickly and accurately as you can.<br><br>Press the space bar to begin.`,
+    stimulus: `In this part, you will hear different speakers. Press '${key1}' if you think it is the ethnicity of a ${ethnicity1.toLowerCase()} person, press '${key2}' if you think it is the ethnicity of a ${ethnicity2.toLowerCase()} person. Try to respond as quickly and accurately as you can.<br><br>Press the space bar to begin.`,
     choices: [" "]
 });
 
